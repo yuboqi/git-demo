@@ -1,0 +1,191 @@
+.container{
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+}
+.clearfix ::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.container .login{
+  position: relative;
+  width: 280px;
+  height: 26px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 26px;
+  font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  border-bottom: 1px solid #ECECEC;
+}
+.container .login .left{
+  cursor: pointer;
+  border-bottom: 1px solid #494949;
+  margin: 0 auto;
+  display: block;
+  font-weight: 600;
+  color: #333;
+  width: 140px;
+}
+
+.container .login .right{
+  cursor: pointer;
+  display: block;
+  width: 140px;
+  margin-bottom:10px;
+  color: #9B9B9B;
+}
+.container .login a{
+  position: absolute;
+  background: url("../img/erweima.png") no-repeat  top/30px 30px;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  overflow: hidden;
+  display: block;
+  color: #9B9B9B;
+  cursor: pointer;
+  width: 30px;
+  height: 0;
+  right: 1px;
+  top: -15px;
+}
+
+/*注意*/
+.container .mainmenu .tips{
+  width: 280px;
+  font-size: 12px;
+  text-align: center ;
+  display: block;
+  float: left;
+  color: #9B9B9B;
+}
+
+.container .mainmenu a{
+  color: #41ac52;
+  cursor: pointer;
+
+}
+/*注意结束*/
+
+/*手机框*/
+.container .mainmenu .info .in{
+  position: relative;
+}
+.container .mainmenu .info .phone{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  width: 280px;
+  border: 1px solid #c3c3c3;
+  padding-left: 60px;
+  font-size: 13px;
+  height: 33px;
+  background: #fff;
+  border-radius: 3px;
+  color: rgb(51,51,51);
+
+}
+.container .mainmenu .info .p{
+  position: absolute;
+  width: 30px;
+  height: 19px;
+  left: 7px;
+  top: 49px;
+  text-align: center  ;
+  padding-left: 3px;
+  font-size: 15px;
+  padding-right: 6px;
+  font-weight: bold;
+  border-right: 1px solid #c3c3c3;
+  cursor: pointer;
+}
+
+.container .mainmenu .info .yanz{
+  width: 280px;
+  border: 1px solid #c3c3c3;
+  box-sizing: border-box;
+  font-size: 13px;
+  height: 33px;
+  background: #fff;
+  border-radius: 3px;
+  color: rgb(51,51,51);
+  line-height: 33px;
+  text-indent: 3px ;
+}
+
+.container .mainmenu .info .yanz span{
+  margin-left: 23px;
+  cursor: pointer;
+  line-height: 33px;
+  display: inline-block;
+  font-size: 13px;
+  color: #41AC52;
+}
+/*手机狂框结束*/
+
+/*按钮*/
+.container .mainmenu button{
+  width: 280px;
+  background-color: #41ac52;
+  height: 34px;
+  margin-top: 10px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 34px;
+}
+/*按钮结束*/
+
+/*验证码*/
+.container .error{
+  width: 280px;
+  color: #41AC52;
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: right;
+  margin-right: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-bottom: 1px solid #c3c3c3;
+  padding-bottom: 10px;
+}
+/*验证码结束*/
+
+/*尾部*/
+.container .suppose{
+  width: 280px;
+  color: #c3c3c3;
+  font-size: 13px;
+  height: 22px;
+  padding-top: 44px;
+}
+
+
+.container .suppose a{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+.container .suppose  .wecheat{
+  width: 22px;
+  height: 22px;
+  background: url("../img/weixin.svg") no-repeat top left/100%;
+  margin-left: 20px;
+}
+
+.container .suppose .weibo{
+  width: 22px;
+  height: 22px;
+  background: url("../img/weibo.svg") no-repeat top left/100%;
+  margin-left: 10px;
+}
+/*尾部结束*/

@@ -1,0 +1,395 @@
+body{
+  min-width: 1920px;
+  min-height: 1080px;
+}
+.container:nth-child(even) {
+  background: #f7f7f7;
+}
+
+.section .container:nth-child(n+2){
+  margin-top: 30px;
+}
+/*区域通用内容*/
+ h2{
+  width: 265px;
+  color: #072;
+  font: 15px Arial, Helvetica, Tahoma, Verdana, Sans-Serif;
+  display: inline;
+  line-height: 150%;
+}
+ .mainspan{
+   font: 12px Arial, Helvetica, Tahoma, Verdana, Sans-Serif;
+   color: #37a;
+   line-height: 150%;
+   width: 79px;
+ }
+.mainspan a{
+  width: 60px;
+  cursor: pointer;
+}
+.mainspan a:hover{
+  color: #fff;
+  background: #37a;
+}
+/*区域通用内容结束*/
+/*左边区域*/
+  .container .left-title{
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+    text-align: left;
+  }
+/*左边区域结束*/
+
+
+/*右边区域*/
+.container .right-title{
+  float: right;
+  width: 265px;
+  margin-left: 30px;
+  text-align: right;
+}
+
+.container .main-title .words{
+  line-height: 16px;
+}
+/*右边区域结束*/
+
+
+/*内容区域*/
+.container .main-title{
+  overflow: hidden;
+}
+
+
+/*内容区域结束*/
+
+/*第一右边区域*/
+.container .right-title a img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+
+}
+.container .right-title a{
+  width: 250px;
+  height: 125px;
+  position: relative;
+}
+
+.container .right-title a .adv{
+  width: 32px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.3);
+  font-size: 12px;
+  font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  position: absolute;
+  color: #fff;
+  right: 0;
+  bottom: 14px;
+}
+
+.container .right-title .firsttitle{
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.container .right-title  .firsttitle li{
+  margin: 10px 0;
+}
+.container .right-title  .firsttitle li span{
+  margin-top: 8px;
+  display: block;
+  font-size: 13px;
+  line-height: 1;
+  color: #aaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 15px;
+}
+
+.container .right-title  .firsttitle li a{
+  cursor: pointer;
+  margin-bottom: 6px;
+  color: #37a;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+}
+.container .right-title  .firsttitle li a:hover{
+  color: #fff;
+  background: #37a;
+}
+
+
+/*第一右边区域结束*/
+
+/*第一内容区域*/
+.main-title  .main-pic{
+  width: 350px;
+  margin-right: 30px;
+}
+
+.main-title .main-notes{
+  width: 275px;
+}
+.main-title .main .main-img{
+  cursor: pointer;
+  width: 170px;
+  height: 170px;
+}
+.main-title .main .pic{
+  display: inline-block;
+  margin-top: 10px;
+  height: 170px;
+
+}
+.main-title .main .img-title{
+  color: #37a;
+  font-size: 12px;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.main-title .main .words a:hover{
+  color: #fff;
+  background: #37a;
+
+}
+
+.main-title .main .num{
+  color: #999;
+  font-size:12px ;
+}
+.main-title ul{
+  text-align: justify;
+}
+.main-title .main .main-img{
+  display: inline-block;
+}
+.main-title .main .clear{
+  color: #fff;
+  width: 100%;
+}
+.main-title .main li {
+  display: inline-block;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  width: 170px;
+}
+.main-title .main .main-notes li{
+  margin-top: 16px;
+}
+.main-title .main .main-notes li a{
+  color: #37a;
+  font-size: 12px;
+
+}
+
+.main-title .main  a img{
+  width: 100%;
+  height: 100%;
+}
+.main-title .main p{
+  font-size: 12px;
+  margin-top: 12px;
+  color: #666;
+  line-height: 1.62;
+
+}
+.main-title .main-notes ul li{
+  width: 275px;
+}
+.main-title .main-notes .title{
+  cursor: pointer;
+  color: #37a;
+  font-size: 12px;
+}
+
+.container .main-title .main-notes li a:hover{
+  color: #fff;
+  background: #37a;
+}
+
+.main-title .main-notes .actor{
+  margin-top: 12px;
+  color:#999;
+  font-size: 12px;
+}
+/*第一内容区域结束*/
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container{
+  width: 950px;
+  margin: 0 auto;
+}
+/*导航栏*/
+.header {
+    height: 90px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.header .container .logo a{
+  width: 154px;
+  height: 0;
+  padding-top: 30px;
+  overflow: hidden;
+  display: block;
+  background: url("../img/logo_db.png") no-repeat top/100%;
+}
+/*搜索框 */
+.header .search{
+  width: 270px;
+  height: 30px;
+  border: 1px solid #c3c3c3;
+  margin-left: 20px;
+  position: relative;
+  line-height: normal;
+}
+.header .search .txt{
+  width: 240px;
+  height: 20px;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.header .search ::placeholder{
+  color: #c3c3c3;
+}
+.header .search button{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  color: #c3c3c3;
+  top: 0;
+  right: 1px;
+  cursor: pointer;
+}
+
+/*雪碧图*/
+.header .menu{
+  margin-top: 8px;
+}
+.header .menu a{
+  float: left;
+  width: 40px;
+  height: 20px;
+  display: block;
+  background: url("../img/nav_logo.png") no-repeat left top/430px 20px;
+  margin-left: 20px;
+}
+.header .menu .menu-read {
+  background-position: 3px 0;
+}
+.header .menu .menu-movie{
+  background-position: -56px 0;
+}
+.header .menu .menu-music{
+  background-position: -111px 0;
+}
+.header .menu .menu-group{
+  background-position: -167px 0;
+}
+
+.header .menu .menu-fm {
+  background-position: -225px 0;
+}
+
+.header .menu .menu-city{
+  background-position: -278px 0;
+}
+
+.header .menu .menu-time {
+  background-position: -332px 0;
+}
+
+.header .menu .menu-doupin {
+  background-position: -389px 0;
+  width: 44px;
+}
+
+/*轮播图*/
+ .banner{
+   /*width: 1093px;*/
+   height: 304px;
+   position: relative;
+   background: url("../img/banner.jpg")  no-repeat 310px top/auto 100% #edf4ed;
+   margin-bottom: 30px;
+ }
+
+.banner .download{
+  position: absolute;
+  top: 29%;
+  left: 50%;
+}
+
+.banner .download span{
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  line-height: 24px;
+  margin: 9px 0;
+  color: #111;
+  padding-left: 3px;
+}
+.banner .download .app-title{
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  height: 28px;
+  font-size: 25px;
+  line-height: 24px;
+  margin: 7px 0;
+  color: #111;
+}
+
+.banner .download button{
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 30px;
+  background: #00B51D;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.banner .download a{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../img/icon-qr-small.png") no-repeat top left/100%;
+  top: -1px;
+  right: -39px;
+  border: 1px solid #00B51D;
+}
+
+.banner .iframe iframe{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-right: 465px;
+}
+
