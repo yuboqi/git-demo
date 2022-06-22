@@ -12,6 +12,173 @@ body{
 .section .container{
   padding-top: 30px;
 }
+/* 结尾 */
+.ft{
+  overflow: hidden;
+  padding: 14px 0;
+  zoom: 1;
+  color: #999;
+  line-height: 19.44px;
+  border-top: 1px dashed #dcdcdc;
+  margin-left: 476.5px;
+  margin-right: 476.5px;
+  margin-top: 30px;
+  font-size: 12px;
+}
+.ft .sp01{
+  float: left;
+}
+
+.ft .sp02{
+ margin-left: 80px;
+ color: #37a;
+}
+.ft .sp02 a:hover{
+  cursor: pointer;
+  color: #fff;
+  background: #37a;
+
+}
+/* 结尾结束 */
+/* 电影区域   */
+.section .container .movies{
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.section .container .movies .movie-a1{
+  font-size: 24px;
+  color: #27a;
+  cursor: pointer;
+  line-height: 22.5px;
+}
+
+.section .container .movies .movie-a1:hover{
+  background: #37a;
+  color: #fff;
+
+}
+
+.section .container .movies .movie-type{
+  margin-top: 12px;
+}
+.section .container .movies .movie-type li{
+  color: #27a;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 22.6px
+}
+.section .container .movies .movie-type a:hover{
+  cursor: pointer;
+  background: #37a;
+  color: #fff;
+}
+
+.section .container .moviesright .moviesright{
+  width: 265px;
+  height: 574px;
+  margin-left: 30px;
+}
+
+.section .container .moviesright .moviesright h2{
+  font:15px Arial, Helvetica, sans-serif;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+.section .container .moviesright .tagelist ul{
+  width: 265px;
+  color: #27a;
+  margin-bottom: 30px
+}
+.section .container .moviesright .tagelist li{
+  box-sizing: border-box;
+  width: 4em;
+  font-family:  Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  zoom: 1;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 4px;
+  line-height: 19.44px;
+  text-align: left;
+}
+
+.section .container .moviesright .tagelist a:hover{
+  background: #37a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.section .container .moviesright .moviesmod{
+  margin-bottom: 30px;
+}
+
+.section .container .moviesright .moviesmod ol{
+  margin-top: 12px;
+  width: 265px;
+}
+
+.section .container .moviesright .moviesmod li{
+  box-sizing: border-box;
+  margin-bottom: 6px;
+  padding-bottom: 10px;
+  /* list-style-type: decimal;
+  list-style-position: inside; */
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.section .container .moviesright .moviesmod a{
+  color: #37a;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.44px;
+  margin-left: 5px;
+}
+.main-movies{
+  overflow: hidden;
+}
+.main-movies .moviespic ul{
+  margin-top: 12px;
+}
+
+.main-movies .moviespic li{
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 132.67px;
+}
+.main-movies .moviespic img{
+  margin-left: 15px;
+  width: 100px;
+  height: 145px;
+}
+
+.main-movies .moviespic .pictitle{
+  width: 132.67px;
+  line-height: 1.45;
+  word-wrap: break-word;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.main-movies .moviespic .rating{
+  margin-top: 10px;
+}
+.main-movies .moviespic .rating a{
+  box-sizing: border-box;
+  font-size: 12px;
+  background: #047fcb;
+  color: #fff;
+  line-height: 19.44px;
+  margin-left: 32px;
+  padding:2px 10px;
+  border-radius: 2px;
+
+}
+
+/* 电影区域结束  */
 /* 豆瓣时间区域 */
 .douban-time{
   font-size: 24px;
