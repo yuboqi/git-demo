@@ -2,13 +2,80 @@ body{
   min-width: 1920px;
   min-height: 1080px;
 }
-.container:nth-child(even) {
+.section:nth-child(even) {
   background: #f7f7f7;
 }
 
 .section .container:nth-child(n+2){
   margin-top: 30px;
 }
+
+.section .container{
+  padding-top: 30px;
+}
+/* 豆瓣时间区域 */
+.douban-time{
+  font-size: 24px;
+  color:rgb(73,73,73);
+  line-height: 22.5px;
+  width: 100px;
+  margin-right: 20px;
+
+}
+.douban-time :hover{
+  background: #37a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.maintime-title{
+  width: 830px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.maintime-title .timepic .timepica{
+  cursor: pointer;
+}
+
+.maintime-title .timepic .timepictitle{
+  cursor: pointer;
+  color:#333333;
+  display: block;
+  font-size: 13px;
+  line-height: 1.38;
+  display: inline;
+
+}
+.maintime-title .timepic span{
+  margin-top: 10px;
+  width: 100px;
+  display: block;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+}
+
+.maintime-title .timepictitle:hover{
+  background: #37a;
+  color: #fff;
+}
+.maintime-title img{
+  width: 100px;
+}
+
+.maintime-title ul li{
+  margin-top: 12px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 30px;
+  margin-right: 60px;
+
+}
+/* 豆瓣时间区域结束 */
 /*区域通用内容*/
  h2{
   width: 265px;
