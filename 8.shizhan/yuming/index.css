@@ -135,6 +135,11 @@ body{
   line-height: 19.44px;
   margin-left: 5px;
 }
+.section .container .moviesright .moviesmod a:hover{
+  cursor: pointer;
+  color: #fff;
+  background: #37a;
+}
 .main-movies{
   overflow: hidden;
 }
